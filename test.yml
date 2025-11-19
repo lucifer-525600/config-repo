@@ -1,1 +1,13 @@
 test.name: TestName
+
+---
+spring:
+  config.activate.on-profile: default,dev
+
+test.name: CommonName
+
+---
+spring:
+  config.activate.on-profile: prod
+
+test.name: ProdName
